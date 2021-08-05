@@ -5,8 +5,10 @@ const app = express();
 const hbs = require('hbs');
 require('./hbs/helpers');
 
-app.use(express.static(__dirname + '/public'));
 
+const port = process.env.PORT || 3000;
+
+app.use(express.static(__dirname + '/public'));
 hbs.registerPartials(__dirname + '/views/partials');
 
 app.set('view engine','hbs');
@@ -32,6 +34,6 @@ app.get('/', (req,res)=>{
 });
 
 
-app.listen(8080, ()=>{
-    console.log("Servidor ejecutandoes en el puerto 8080")
+app.listen(port, ()=>{
+    console.log(`Servidor ejecutandoes en el puerto ${port}`)
 });
