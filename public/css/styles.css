@@ -1,0 +1,149 @@
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 3px;
+    margin: 0%;
+    font-size: 2em;
+}
+h3{
+    font-size: 1em;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-image: url('/img/volley.jpg');width: 100%; height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(45, 87, 97);
+
+}
+
+
+.containers{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-item-left {
+    padding: 10px;
+    flex: 50%;
+    align-content: center;
+  }
+  
+  .flex-item-right {
+    padding: 50px 0 0 10px;
+    flex: 50%;
+  }
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+#masInfo{
+    padding-top: 20px;
+}
+
+li{
+    color: rgb(0, 0, 0);
+    padding: 1px;
+}
+#art1{
+    border: 3px solid #551607;
+    background-color: rgb(160, 81, 81);
+    padding: 5px;
+}
+#informacion{
+    background: rgb(170, 170, 170);
+    padding: 70px 0 70px 0;
+    background-image: url("/img/smooth_wall.png");
+    background-attachment: fixed;
+}
+
+#productos{
+    padding: 80px 0 80px 0;
+    overflow:hidden;
+    background-image: url("/img/volley.jpg");
+    background-attachment: fixed;
+
+}
+.productos:hover .imagen2 {
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+#contactos{
+    background: rgb(170, 170, 170);
+    padding: 70px 0 70px 0;
+    background-image: url("/img/email-pattern.png");
+    background-attachment: fixed;
+}
+#listProd{
+    display: inline;
+}
+#logoinfo{
+    width: 300px;
+}
+
+.imagen{
+    padding: 50px;
+}
+
+.cont:hover .imagen {-webkit-transform:scale(1.2);transform:scale(1.2);}
+.cont {overflow:hidden;}
+
+footer{
+    color: rgb(255, 255, 255);
+    padding: 80px 25px 20px 25px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    background-image: url("/img/carbon_fibre.png");
+    background-attachment: fixed;
+}
+h4{
+    font-size: 20px;
+    margin: 0%;
+}
+#contr{
+    padding: 150px;
+}
+
+.box{
+    width: 20%;
+    height: auto;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.infotext{
+    padding: 20px;
+}
+#emm{
+    padding-top: 50px;
+}
+.productos{
+    padding: 50px 25px 25px 25px;
+}
+.pro{
+    min-height:400px ;
+    width: 100%;
+    text-align: center;
+    padding:20px;
+    display:flex;
+}
